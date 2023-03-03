@@ -246,30 +246,31 @@ main section:nth-child(2n + 1)
 
 .skill-display .eighty-percent{
   
-  width: 80%;
+  /* width: 80%; */
   background-color: #f78a1a;
+  
   
   
 }
 
 .skill-display .ninety-percent{
-    width: 90%;
+    /* width: 90%; */
     background-color: #40b85a;
   }
 
 .skill-display .fifty-percent{
-    width: 50%;
+    /* width: 50%; */
     background-color: #e83535a3;
     
   }
 
   .skill-display .seventy-percent{
-    width: 70%;
+    /* width: 70%; */
     background-color: #ba6442;
   }
 
   .skill-display .sixty-percent{
-    width: 60%;
+    /* width: 60%; */
     background-color: #41abc9c7;
   }
 
@@ -278,9 +279,7 @@ main section:nth-child(2n + 1)
   }
 
 
-
 /*  */
-
 
 /* portfolio-image divs */
 
