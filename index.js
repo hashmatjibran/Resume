@@ -12,24 +12,24 @@ for (const link of links) {
 
 function getOffset(link)
 {
-    innervalue=link.innerHTML;
 
+    innervalue=link.innerHTML;
     setWindowScroll(innervalue);
 }
 
 function setWindowScroll(innervalue)
 {
-    console.log(document.body.offsetHeight);
 
     let interval = setInterval(function (){
 
      let element=document.getElementById(innervalue).getBoundingClientRect();
          
-       if( element.top<=25 || ((window.pageYOffset + window.innerHeight ) >= document.body.offsetHeight))
+       if( element.top<=25 || ((window.pageYOffset + window.innerHeight ) >= (document.body.offsetHeight-5)))
         {
+            console.log("inside xyzzz")
             clearInterval(interval);
         }
-    window.scrollBy(0,30); }, 1);
+    window.scrollBy(0,30); });
 }
 //for initializing the skill divs with zero width 
 setWidthZero();
